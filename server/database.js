@@ -1,5 +1,5 @@
 import mysql from 'mysql2'
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import dotenv from 'dotenv';
 import { config_path } from './secret/configpath.js';
 

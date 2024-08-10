@@ -1,6 +1,6 @@
 import { getUserByEmail, registerUser } from '../database/userQueries.js';
 import {pool} from '../database/db.js';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 
 export async function registerUserController(req, res) {
